@@ -1,0 +1,50 @@
+body {
+	background-color: rgb(180,180,180);
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	color : white;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+div {
+	/*
+	border-style: solid;
+	border-width : 1px;
+	border-color: black; 
+	*/
+	margin : auto;
+
+}
+
+div.contentor {
+	width: 700px;
+	margin-top : 10px;
+	margin-bottom: 10px;
+}
+
+/*
+div.foto {
+	text-align: center;
+}
+*/
+
+div.foto img{
+	display:block;
+	margin:auto;
+	border-radius: 20px;
+
+}
+
+div.contentor div.legenda h2 {
+	background-color: blue;
+	color: rgb(200,150,0);
+	text-align: center;
+	height: 40px;
+	border-radius: 20px;
+}
+
+
